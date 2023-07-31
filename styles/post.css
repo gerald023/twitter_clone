@@ -1,0 +1,407 @@
+
+
+@media screen and (max-width: 8800px) {
+    main {
+        display: flex;
+        justify-content: flex-start;
+      }
+      main .content {
+        display: flex;
+        width: 990px;
+        /* gap: 14px; */
+      }
+      main .content .main_sec {
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        border-right: 1px solid gainsboro;
+        border-left: 1px solid gainsboro;
+      }
+      main .content .main_sec .top_bar{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: sticky;
+        top: 0;
+        background-color: rgba(255, 255, 255, 0.97);
+        border-bottom: 1px solid gainsboro;
+      }
+      main .content .main_sec .top_bar .home{
+        padding: 12px 10px;
+        width: 100%;
+      }
+      main .content .main_sec .top_bar .profile2{
+        display: none;
+        gap: 400px;
+        padding: 40px 0;
+        align-items: center;
+        padding: 0 0 0 30px;
+        margin: 30px 0;
+      }
+      .profile2 .bird i{
+        font-size: 50px;
+      }
+      .profile2 .B_img .img{
+        width: 65px;
+        display: flex;
+        align-items: center;
+        height: 65px;
+      }
+      .profile2 .B_img .img i{
+        font-size: 35px;
+        margin-bottom: 10px;
+      }
+
+      main .content .main_sec .top_bar .btm{
+        width: 100%;
+        height: 50px;
+        display: flex;
+      }
+      .main_sec .top_bar .btm a{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        font-weight: 600;
+        justify-content: center;
+        align-items: center;
+        transition: ease-in-out 0.2s;
+      }
+      .top_bar .btm a:first-child p{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        border-bottom: 5px solid  rgb(29, 155, 240);
+      }
+      .main_sec .top_bar .btm a:hover{
+        background-color: gainsboro;
+      }
+      .main_sec .post{
+        display: flex;
+        padding: 7px 12px 15px 12px;
+        gap: 20px;
+        border-bottom: 1px solid gainsboro;
+      }
+      .post .search{
+        display: flex;
+        width: 90%;
+        flex-direction: column;
+        gap: 3px;
+        justify-content: flex-start;
+      }
+      .post .img{
+        align-self: flex-start;
+        color: black;
+      }
+      .post .img:hover{
+        background-color: rgb(167, 172, 175);
+      }
+      .post .search .select{
+        width: fit-content;
+        padding: 0px 10px;
+        border-radius: 20px;
+        font-size: 16px;
+        color: rgb(29, 155, 240);
+        font-weight: 700;
+        border: 1px solid gainsboro;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+      }
+      .post .search .select i{
+        display: flex;
+        align-items: center;
+        margin-top: 3px;
+        color: rgb(98, 192, 255);
+      }
+      .search .select:hover{
+        background-color: rgb(220, 241, 255);
+      }
+      #se2{
+        border: none;
+        gap: 5px;
+      }
+      #se2:hover{
+        background-color: rgb(220, 241, 255);
+      }
+      #se2 i{
+        color: rgb(29, 155, 240);
+        margin-bottom: 3px;
+    }
+      .search input{
+        width: 100%;
+        height: 60px;
+        font-size: 19px;
+        padding: 0 2px;
+        display: flex;
+        align-items: center;
+        border: none;
+        outline: none;
+        resize: none;
+        padding-top: 10px;
+        overflow-y: hidden;
+        /* text-align: center; */
+        vertical-align: middle;
+      }
+      input::placeholder{
+        color: rgb(134, 139, 142);
+      }
+      .main_sec .icons{
+        width: 100%;
+        border-bottom: 1px solid gainsboro;
+        display: flex;
+        justify-content: flex-end;
+      }
+      .main_sec .icons .icon{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 13px 10px;
+      }
+      .icons .icon ul{
+        display: flex;
+        align-items: center;
+        /* gap: 5px; */
+      }
+      .icons .icon ul li{
+        border-radius: 50%;
+        padding: 5px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .icons .icon ul li:last-child{
+        cursor: default;
+      }
+      .icons .icon ul li:last-child span{
+        color: rgb(125, 200, 250);
+      }
+      .icons .icon ul li:last-child:hover{
+        background-color: transparent;
+      }
+      .icons .icon ul li:hover{
+        background-color: rgb(216, 240, 255);
+      }
+      .icons .icon ul li i{
+        color: rgb(0, 153, 255);
+        font-size: 16px;
+      }
+     .icons .icon ul .material-symbols-outlined{
+        color: rgb(0, 155, 240);
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+      }
+      .icons .icon .tweet button{
+        padding: 8px 8px;
+        border-radius: 20px;
+        display: flex;
+        font-size: 15px;
+        font-weight: 600;
+        cursor: pointer;
+        /* width: 70px; */
+        align-items: center;
+        justify-content: center;
+        border: none;
+        background-color: rgb(159, 204, 234);
+        color: white;
+      }
+     
+    .main_sec .refresh_post{
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 0;
+      cursor: pointer;
+      border-bottom: 1px solid gainsboro;
+    }
+    .main_sec .tweet_post:hover{
+      background-color: rgb(248, 247, 247);
+    }
+    .main_sec .refresh_post p{
+      color: rgb(0, 153, 255);
+    }
+    .main_sec .tweets{
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      padding: 8px;
+      padding-bottom: 7px;
+      border-bottom: 1px solid gainsboro;
+    }
+    .tweets .posts{
+      width: 100%;
+      display: flex;
+      cursor: pointer;
+      gap: 5px;
+    }
+    .imgs{
+      border-radius: 50%;
+      margin-top: 7px;
+    }
+   .imgs img{
+      width: 50px;
+      border-radius: 50%;
+    }
+    .imgs p{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      position: absolute;
+      margin-top: -55px;
+    }
+    .imgs:hover p{
+      box-shadow: inset 100px 100px 100px 100px rgba(41, 41, 41, 0.27);
+    }
+    .tweets .posts .texts{
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      width: 90%;
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+    }
+    .posts .texts .title{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      /* margin-top: px; */
+    }
+    .posts .texts .title a{
+      display: flex;
+      align-items: center;
+      gap: 3px;
+    }
+    .posts .texts .title a .verify{
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .posts .texts .title a .verify h4{
+      display: flex;
+      gap: 2px;
+      align-items: center;
+    }
+    .posts .texts .title a .verify h4 p{
+      color: black;
+    }
+    .posts .texts .title a .verify h4:hover p{
+      text-decoration: underline;
+    }
+    .posts .texts .title a .verify span,.hov span{
+      background-color: rgb(0, 153, 255);
+      border-radius: 60%;
+      color: white;
+      width: 18px;
+      height: 18px;
+      display: flex;
+      font-size: 24px;
+      align-items: center;
+      justify-content: center;
+    }
+    .posts .texts .title a p{
+      color: rgb(97, 97, 97);
+      word-wrap: break-word;
+    }
+    main .ellipse{
+      padding: 10px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    main .ellipse:hover{
+      background-color: rgba(220, 241, 255, 0.657);
+    }
+    main .ellipse:hover .fa-solid{
+      color: rgb(0, 155, 207);
+    } 
+    .posts .texts .write_up a{
+      color: rgb(45, 171, 255);
+    }
+    .posts .texts .picture{
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+      grid-template-rows: repeat(auto-fit, minmax(20%, 48%));
+      justify-content: flex-start;
+      /* border: 1px solid gainsboro; */
+     grid-column-gap: 3px;
+     grid-row-gap: 2px;
+    }
+    .posts .texts .picture img{
+      width: 100%;
+      height: 1fr;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 3px;
+    }
+    .posts .texts .picture video{
+      width: 90%;
+      height: 500px;
+      background-color: black;
+    }
+    .posts .texts .picture a{
+      display: flex;
+      width: 100%;
+      border: 1px solid gainsboro;
+      color: gray;
+      border-radius: 12px;
+      flex-direction: column;
+    }
+    .posts .texts .picture a p{
+      padding: 12px;
+    }
+    .posts .texts .react{
+      width: 90%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      gap: 30px;
+    }
+    .posts .texts .react div{
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      gap: 3px;
+      color:rgb(83, 100, 113);
+   
+    }
+    .posts .texts .react div i{
+      padding: 10px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .posts .texts .react .comment:hover i, .view:hover i, .share:hover i{
+      background-color: rgb(220, 241, 255);
+      color: rgb(0, 138, 184);
+      transition: ease-in-out 0.3s;
+    }
+    .posts .texts .react .comment:hover p, .view:hover p{
+      color: rgb(0, 138, 184);
+      transition: ease-in-out 0.3s;
+    }
+    .posts .texts .react .retweet:hover i{
+      background-color: rgb(220, 234, 227);
+      color: rgb(22, 176, 47);
+      transition: ease-in-out 0.3s;
+    }
+    .posts .texts .react .retweet:hover p{
+      color: rgb(22, 176, 47);
+      transition: ease-in-out 0.3s;
+    }
+    .posts .texts .react .love:hover i{
+      background-color: rgba(255, 187, 200,0.3);
+      color: crimson;
+      transition: ease-in-out 0.3s;
+    }
+    .posts .texts .react .love:hover p{
+      color: crimson;
+      transition: ease-in-out 0.3s;
+    }
+}

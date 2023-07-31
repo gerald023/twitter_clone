@@ -1,0 +1,386 @@
+@media screen and (max-width: 1300px) {
+    #root nav .content {
+        width: fit-content;
+    }
+    #root nav .content ul{
+        padding: 0 20px;
+        width: fit-content;
+    }
+
+ #root nav .content .nav_1{
+    display: none;
+ }
+ #root nav .content .nav_2{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 2px;
+ }
+ #root nav .content .nav_2 .full{
+    width: fit-content;
+ }
+ #root nav .content ul li{
+    border-radius: 50%;
+    padding: 12px;
+ }
+ #root nav .content ul li a .icon1{
+    padding: 10px;
+    width: 0px;
+    height: 0px;
+ }
+ #root nav .content ul li a{
+    padding: 0;
+    font-size: 20px;
+ }
+ #root nav .content ul li:hover a{
+    background-color: transparent;
+ }
+ #root nav .content ul li:hover{
+    background-color:  rgb(237, 237, 237);
+    cursor: pointer;
+ }
+ #root nav .content .nav_2 .nav_btn{
+    color: white;
+    /* padding: 10px; */
+    width: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    height: 60px;
+    border-radius: 50%;
+ }
+ #root nav .profile{
+    justify-content: flex-end;
+    width: fit-content;
+    margin-top: 40px;
+}
+#root nav .profile a{
+    width: fit-content;
+    padding: 10px;
+    border-radius: 50%;
+    bottom: 0;
+}
+#root nav .profile a .user .img{
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    border-radius: 50%;
+}
+#root nav .profile a .user .img i{
+    margin-bottom: 10px;
+}
+}
+@media screen and (max-width:1040px) {
+    #root nav {
+        padding-left: 20px;
+    }
+    #root nav .content ul{
+        gap: 25px;
+    }
+    #root nav .content ul li{
+        padding: 7px;
+     }
+}
+@media screen and (max-width:1000px) {
+    #root main footer{
+        display: none;
+    }
+    #root .container {
+        align-self: center;
+        margin: 0 0 0 330px;
+
+    }
+    .container main .main_sec{
+        width: 800px;
+        border-right: none;
+    }
+    .posts .texts .write_up p{
+        font-size: 20px;
+    }
+    .posts .texts .title a .verify h4 p{
+        color: black;
+        font-size: 20px;
+      }
+      .posts .texts .title a p{
+        font-size: 17px;
+      }
+      nav .nav_2 i, .nav_2 span{
+        font-size: 30px;
+      }
+}
+@media screen and (max-width:850px) {
+
+    #root .container {
+        align-self: center;
+        margin: 0 0 0 470px;
+
+    }
+    .container main .main_sec{
+        width: 1000px;
+    }
+      nav .nav_2 i, .nav_2 span{
+        font-size: 40px;
+      }
+      .posts .texts .react{
+        font-size: 20px;
+      }
+      #root nav .content .nav_2{
+         gap: 40px;
+     }
+     .main_sec .home h1{
+        font-size: 40px;
+     }
+     .main_sec  .btm  p{
+        font-size: 20px;
+     }
+     .main_sec .post .search .select{
+        font-size: 20px;
+     }
+     .main_sec .post .search form input{
+        font-size: 23px;
+     }
+     .main_sec .post .search .icons{
+        margin-left: -89px;
+        font-size: 30px;
+     }
+     .main_sec .post .search .icons ul span{
+        font-size: 20px;
+     }
+     .main_sec .post .search .icons i{
+        font-size: 20px;
+     }
+   
+     .imgs img{
+        width: 80px;
+      }
+      .imgs p{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        position: absolute;
+        margin-top: -85px;
+      }
+}
+
+@media screen and (max-width:650px) {
+
+    #root .container {
+        align-self: center;
+        margin: 0 0 0 470px;
+
+    }
+    .container main .main_sec{
+        width: 1000px;
+    }
+      .posts .texts .react{
+        font-size: 20px;
+        margin-top: 20px;
+      }
+   
+      #root nav .content .nav_2{
+         gap: 40px;
+     }
+     #root nav .content{
+        margin-top: 30px;
+     }
+     .main_sec .home h1{
+        font-size: 48px;
+     }
+     .main_sec  .btm  p{
+        font-size: 30px;
+     }
+     .main_sec .post .search .select{
+        font-size: 27px;
+     }
+     .main_sec .post .search .icon .tweet button{
+        font-size: 23px;
+        padding: 14px 43px;
+        border-radius: 40px;
+        letter-spacing: 1px;
+     }
+     .refresh_post{
+        font-size: 25px;
+        font-weight: 600;
+     }
+     .main_sec .post .search form input{
+        font-size: 25px;
+     }
+     .main_sec .post .search .icons{
+        margin-left: -89px;
+        font-size: 30px;
+     }
+     .main_sec .post .search .icon ul span{
+        width: 40px;
+        font-size: 30px;
+     }
+     .main_sec .post .search .icons i{
+        font-size: 30px;
+     }
+     .posts .texts .write_up p{
+        font-size: 28px;
+    }
+    .posts .texts .title a .verify h4 p{
+        color: black;
+        font-size: 30px;
+      }
+      .posts .texts .title a p{
+        font-size: 25px;
+      }
+      nav .nav_2 .full i{
+        font-size: 33px;
+      }
+      nav .nav_2 a .icon img{
+        width: 33px;
+      }
+      #root nav .profile{
+        margin-top: 190px;
+    }
+    #root nav .profile a{
+        border-radius: 50%;
+    }
+    #root nav .profile a .user .img{
+        height: 70px;
+        border-radius: 50%;
+        margin-left: 30px;
+    }
+    #root nav .profile a .user .img i{
+        margin-bottom: 10px;
+    }
+    .posts .texts .title a .verify span,.hov span{
+        width: 23px;
+        height: 23px;
+        font-size: 32px;
+      }
+}
+
+@media screen and (max-width: 575px) {
+    #root nav .profile a .user .img{
+        margin-left: 70px;
+    }
+}
+@media screen and (max-width: 535px) {
+    #root nav .profile a .user .img{
+        margin-left: 110px;
+    }
+    #root nav .content .nav_2{
+        gap: 60px;
+    }
+    nav .nav_2 .full i{
+        font-size: 43px;
+      }
+      nav .nav_2 a .icon img{
+        width: 43px;
+      }
+      #root nav .profile{
+        margin-top: 140px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #root  nav{
+        display: none;
+    }
+    #root main .main_sec{
+        padding: 0 50px;
+    }
+    .main_sec .post{
+        display: none;
+    }
+    main .content .main_sec .top_bar .profile2{
+        display: flex;
+    }
+    main .content .main_sec .top_bar .home{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 450px) {
+    #root main .main_sec{
+        padding: 0 60px;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+    #root main .main_sec{
+        padding: 0 80px;
+    }
+    main .content .main_sec .top_bar{
+        width: 110%;
+      }
+
+}
+@media screen and (max-width: 350px) {
+    #root main .main_sec{
+        padding: 0 110px;
+    }   
+    .posts .texts .react{
+        font-size: 28px;
+      }
+      .main_sec  .btm  p{
+        font-size: 40px;
+      } 
+}
+@media screen and (max-width: 330px) {
+    #root main .main_sec{
+        padding: 0 140px;
+    }   
+}
+@media screen and (max-width: 300px) {
+    #root main .main_sec{
+        padding: 0 160px;
+    }   
+    .posts .texts .write_up p{
+        font-size: 35px;
+    }
+    .posts .texts .title a .verify h4 p{
+        color: black;
+        font-size: 37px;
+      }
+      .posts .texts .title a .verify{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .posts .texts .title a p{
+        font-size: 35px;
+      }
+      .posts .texts .title p:last-of-type{
+        display: none;
+      }
+      .posts .texts .title .verify p{
+        display: block;
+      }
+      .imgs img{
+        width: 100px;
+      }
+      .imgs p{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        position: absolute;
+        margin-top: -105px;
+      }
+
+}
+@media screen and (max-width: 250px) {
+    #root main .main_sec{
+        padding: 0 180px;
+    }   
+
+}
+
+@media screen and (max-width: 200px) {
+    #root main .main_sec{
+        padding: 200px;
+    }   
+
+}
+
+@media screen and (max-width: 170px) {
+    #root main .main_sec{
+        padding: 0 250px;
+    }   
+
+}
+
